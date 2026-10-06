@@ -58,3 +58,21 @@ The app uses Apple StoreKit for a one-time purchase, restoring purchases, and ve
 The free AI-refinement counter is stored on this device. No developer account, advertising identifier, or device fingerprint is used to count usage across devices. The keyboard and host share an availability hint and remaining allowance; the host checks the actual entitlement. Erasing app data or uninstalling may reset the allowance but does not revoke a valid Apple-managed purchase. Restore Purchases can retrieve that entitlement again.
 
 The one-time app unlock includes no third-party AI or speech credits. Users provide their own API keys and pay their chosen providers' usage fees.
+
+## Explicit permission for third-party AI sharing (build 12 onward)
+
+Before enabling a new speech service or AI server address, a dedicated permission screen identifies the recipient, full server address, data and purpose, and requires an affirmative “Allow sharing with this recipient” action. Permission is off by default. Entering an API key, granting microphone access or enabling keyboard Full Access does not grant third-party AI permission. Legacy global permissions are not carried forward.
+
+- Cloud speech sends audio you record, configured vocabulary, language and recognition settings to Volcano/ByteDance at openspeech.bytedance.com for transcription. Service credentials authenticate the request.
+- AI text processing sends the current transcript, or the original of one history item you explicitly reprocess, plus the selected instructions, target language and model settings to your chosen AI service for polishing, translation, prompts, key points or tasks. It does not send raw audio to text models or automatically upload your whole history. Connection tests send only a fixed sample.
+- Providers receive API credentials for authentication and can see network addresses. The app adds no advertising identifier and does not relay or upload audio, text or API keys to the developer.
+
+Available AI recipients are Doubao/ByteDance ARK, MiniMax, Alibaba Cloud Bailian, Kimi/Moonshot, OpenRouter, OpenAI, Gemini/Google, DeepSeek, Zhipu, Claude/Anthropic, or the operator of your configured Ollama/compatible API server. The permission screen shows the actual address. A custom address is not assumed to belong to the brand selected in the menu. OpenRouter may route requests onward to the selected model provider; check its routing and data policies as well.
+
+Permission is specific to data purpose, provider and address and covers both app and keyboard. An unapproved provider or address requires new permission. Text-service redirects are refused. Declining leaves basic Apple dictation available. Revoke in Provider Settings to stop subsequent sharing. Revoking does not erase information already received by a provider; use that provider’s deletion process.
+
+### Third-party protection requirements
+
+We require authorized data processors to provide the same or equivalent personal-data protection described here, including purpose limitation, appropriate transport and storage security, access controls, and applicable retention and deletion mechanisms. The app sends only the data needed for the request to the recipient you explicitly choose and authorize. Review your service’s privacy policy, data-processing terms, retention and training settings before granting access. Do not authorize or use a custom server unable to provide these protections.
+
+User-configured services are controlled by independent operators. We cannot promise zero retention or no training on their behalf, and do not claim every account or custom server has been independently audited. Do not submit personal data you lack permission to share or sensitive material unsuitable for the service’s protection level. Revoke access and contact us if you identify a protection issue.
