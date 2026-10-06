@@ -53,4 +53,4 @@ Email carlliuxx@gmail.com with your app version, iOS version, mode, provider nam
 
 ## Free dictation and optional PRO
 
-Version 1.0.6 offers free basic dictation and 30 successful AI refinements per installation. Failed or cancelled requests do not count. Continue AI refinement with a one-time PRO purchase (US base price $1.99; local prices are shown by the App Store). Bring your own API key; third-party provider usage is separate. The home-screen allowance row opens the purchase and Restore Purchases controls. Version 1.0.6 is being prepared for App Store review; availability follows the store listing.
+Version 1.0.6 offers free basic dictation and 30 successful AI refinements per installation. Failed or cancelled requests do not count. Continue AI refinement with a one-time PRO purchase (US base price $1.99; local prices are shown by the App Store). Bring your own API key; third-party provider usage is separate. The home-screen allowance row opens the purchase and Restore Purchases controls. Version 1.0.6 was submitted for App Store review on October 7, 2026 and is awaiting review; availability follows the store listing.
