@@ -4,6 +4,8 @@ title: xx Voice Keyboard — Privacy Policy
 permalink: /en/
 ---
 
+> Version note: the policy below is retained for the existing release. For the 1.0.5 beta and update, see the [1.0.5 privacy policy](../privacy-1.0.5-en/). [Product](../product-en/) · [Help](../help-en/)
+
 # xx Voice Keyboard — Privacy Policy
 
 **Last updated**: May 26, 2026
