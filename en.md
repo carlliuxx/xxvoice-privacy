@@ -118,3 +118,8 @@ If this policy changes, we will notify you via in-app notice or the App Store up
 ## 9. Contact
 
 For any privacy-related question, email **carlliuxx@gmail.com**.
+
+
+## Version 1.0.6 — 随口成章
+
+[Version 1.0.6 privacy policy, including one-time purchases and the local free allowance](../privacy-1.0.6-en/). Applies when that version is released; earlier policies remain available.

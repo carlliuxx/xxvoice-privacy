@@ -1,19 +1,19 @@
 ---
 layout: default
-title: xx Voice Input Help
+title: 随口成章 Help
 permalink: /help-en/
 ---
 
 # Your first successful dictation
 
-[Download xx Voice Input](https://apps.apple.com/us/app/xx-voice-input/id6773677051) · [中文帮助](../help/) · [1.0.5 privacy policy](../privacy-1.0.5-en/)
+[Download 随口成章](https://apps.apple.com/us/app/xx-voice-input/id6773677051) · [中文帮助](../help/) · [1.0.6 privacy policy](../privacy-1.0.6-en/)
 
-This guide covers version 1.0.5, currently available through TestFlight. Check the App Store for the current public release. App pricing is shown in your App Store; third-party API usage is billed separately.
+This guide covers version 1.0.6, currently available through TestFlight. Check the App Store for the current public release. App pricing is shown in your App Store; third-party API usage is billed separately.
 
 ## Start with direct transcription
 
 1. Open the app and follow onboarding. Allow microphone access and, for Apple recognition, speech recognition access.
-2. In iPhone Settings, open General → Keyboard → Keyboards → Add New Keyboard. Add xx Voice Input and allow Full Access so the keyboard and host app can share recording state and results.
+2. In iPhone Settings, open General → Keyboard → Keyboards → Add New Keyboard. Add 随口成章 and allow Full Access so the keyboard and host app can share recording state and results.
 3. Return to onboarding. Use the globe button to switch to the xx keyboard in the practice field.
 4. Choose direct transcription and dictate a short sentence. If microphone activation opens the host app, follow its instructions to return to your previous app.
 5. Stop recording and check that your words appear. Some apps, password fields, and restricted text fields do not allow third-party keyboards.
@@ -49,3 +49,8 @@ The home screen explains the current data flow. Local history defaults to 10 min
 ## Contact
 
 Email carlliuxx@gmail.com with your app version, iOS version, mode, provider name, and reproduction steps. Do not include API keys, passwords, or sensitive recordings. A fictional short sentence is usually enough.
+
+
+## Free dictation and optional PRO
+
+Version 1.0.6 offers free basic dictation and 30 successful AI refinements per installation. Failed or cancelled requests do not count. Continue AI refinement with a one-time PRO purchase (US base price $1.99; local prices are shown by the App Store). Bring your own API key; third-party provider usage is separate. The home-screen allowance row opens the purchase and Restore Purchases controls. Version 1.0.6 is being prepared for App Store review; availability follows the store listing.

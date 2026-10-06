@@ -1,14 +1,14 @@
 ---
 layout: default
-title: xx Voice Input — Your Voice. Your AI.
+title: 随口成章 — Your Voice. Your AI.
 permalink: /product-en/
 ---
 
 # Turn spoken thoughts into useful text
 
-xx Voice Input is an iPhone voice keyboard for messages, email drafts, notes, and AI prompts. Use your own API key for optional text processing.
+随口成章 is an iPhone voice keyboard for messages, email drafts, notes, and AI prompts. Use your own API key for optional text processing.
 
-[Download on the App Store](https://apps.apple.com/us/app/xx-voice-input/id6773677051) · [Setup guide](../help-en/) · [1.0.5 privacy](../privacy-1.0.5-en/) · [中文](../product/)
+[Download on the App Store](https://apps.apple.com/us/app/xx-voice-input/id6773677051) · [Setup guide](../help-en/) · [1.0.6 privacy](../privacy-1.0.6-en/) · [中文](../product/)
 
 ## Pick a mode for your task
 
@@ -27,4 +27,9 @@ Configure speech recognition and AI text processing separately. Choose which ser
 
 Set up the keyboard and permissions, try direct transcription, and then add AI processing when you need it. [Follow the guide](../help-en/).
 
-This page describes version 1.0.5, currently in TestFlight testing. Check the store for the currently available version. Not distributed in mainland China.
+This page describes version 1.0.6, currently in TestFlight testing. Check the store for the currently available version. Not distributed in mainland China.
+
+
+## Free dictation and optional PRO
+
+Version 1.0.6 offers free basic dictation and 30 successful AI refinements per installation. Failed or cancelled requests do not count. Continue AI refinement with a one-time PRO purchase (US base price $1.99; local prices are shown by the App Store). Bring your own API key; third-party provider usage is separate. The home-screen allowance row opens the purchase and Restore Purchases controls. Version 1.0.6 is being prepared for App Store review; availability follows the store listing.
